@@ -1,0 +1,67 @@
+h1 {
+    margin: 0px;
+}
+
+a {
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    margin: 0;
+    background-color: aliceblue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#destaque{
+    background-color: brown;
+    height: 300px;
+}
+
+#container {
+    background-color: white;
+    margin: auto;
+    width: 1080px;
+}
+
+#topo {
+    padding: 4px;
+    padding-right: 16px;
+    background-color: rgb(50, 50, 50);
+    text-align: right;
+}
+
+#nav {
+    background-color: rgb(50, 50, 50);
+    position: sticky;
+    top: 0px;
+}
+
+#rodape {
+    padding: 8px;
+    background-color: dimgray;
+    text-align: center;
+}
+
+.menu {
+    margin-top: 0px;
+    list-style: none;
+    padding: 16px;
+}
+
+#conteudo {
+    padding: 16px;
+}
+
+.menu > li {
+    padding: 10px;
+    display: inline;
+    color: aliceblue;
+}
